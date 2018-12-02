@@ -1,0 +1,42 @@
+.welcome-banner {
+  padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+ 
+}
+.welcome-banner .headline {
+  float: left;
+  margin-top: 16px;
+}
+.welcome-banner .category-list {
+  float: right;
+  margin-right: -79px;
+  display: block;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding-left: 11px;
+  padding-right: 11px;
+  background-color: #dba510;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.welcome-banner .category-list .category {
+    padding: 10px 0px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 5px;
+}
+
+.welcome-banner .category-list .category .title {
+  width: 100px;
+  z-index: 1000;
+  color: white;
+}
+
+
+.welcome-banner .category-list .category .avatar {
+  position: relative;
+  margin-top: 26px;
+  margin-left: 15px;
+}

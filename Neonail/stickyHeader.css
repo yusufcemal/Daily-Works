@@ -1,0 +1,18 @@
+.ins-header-sticky-banner {
+    background-image: url(https://image.useinsider.com/neonail/c152/ZAbmpj9jRTwz1tLiQZz81542358374.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 70px;
+    width: 60%;
+}
+
+.ins-header-wrapper {
+    width: 100%;
+    height: 7vh;
+    position: absolute;
+    background-color: #6355B9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+.ins-sticky-bottom-wrapper {
+    position : fixed;
+    width: 100%;
+    height: 135px;
+    bottom: 0px;
+    z-index: 9999;
+    height : 140px;
+}
+
+div.ins-banner-image {
+    background-image: url("https://image.useinsider.com/linens/c802/E8tHSXvNi56IUd286jq31542302804.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100%;
+    height: 140px;
+    background-color: white;
+}

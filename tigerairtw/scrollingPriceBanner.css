@@ -1,0 +1,75 @@
+.ins-tigerbuddy {
+    background-color: #f6ae35;
+}
+
+.ins-tigerquicker {
+    background-color: #4e8ec8;
+}
+
+.ins-tigercomfort {
+    background-color: #9a6298;
+}
+
+.ins-price-banner-wrapper {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    width: 250px;
+    bottom: 50px;
+    left: 15px;
+}
+
+.ins-price-banner-wrapper span {
+    color: white;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.ins-top-part span {
+    font-size: 18px;
+    font-weight: 500;
+    height: 50px;
+}
+
+.ins-price-banner-wrapper .ins-bottom-part {
+    height: 80px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.ins-price-banner-wrapper .ins-top-part {
+    border: solid #F5F5F5;
+    border-width: 0px 0px 1px 0px;
+}
+
+.ins-recommended-icon {
+    position: absolute;
+    width: 75px;
+    height: 22px;
+    background-color: white;
+    left: 260px;
+    top: 200px;
+    background-image: url("https://image.useinsider.com/tigerairtw/c43/bW3brpBssygi98bxSF1G1539160426.jpg");
+    background-repeat: no-repeat;
+    background-size: 75px auto;
+    transform: rotate(-20deg) scale(1.2);
+}
+
+.ins-absolute-banner {
+    position: absolute;
+    top: 200px;
+}
+
+.ins-sticky-banner {
+    position: fixed;
+    width: 250px;
+    bottom: 15%;
+    left: auto;
+    margin-left: 20px;
+};

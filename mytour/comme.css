@@ -1,0 +1,24 @@
+.box-review.ins-box-review {
+    position: absolute;
+    right: 0px;
+    top: -60px
+}
+
+.ins-comment-icon {
+    position: absolute;
+    right: 100px;
+    background-image: url('https://image.useinsider.com/mytour/c273/BBvCrTiGfJErya0zyaKS1543413179.png');
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: -61px;
+}
+
+.ins-comment-link {
+    position: absolute;
+    right: 100px;
+    top: -30px;
+    text-decoration: underline;
+    cursor: pointer;
+}

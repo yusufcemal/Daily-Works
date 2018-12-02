@@ -1,0 +1,115 @@
+.ins-popup-nps-c16 {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 23vw;
+    height: 30vh;
+    max-height: 300px;
+    max-width: 500px;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999999;
+    border: 1px solid #282828;
+    border-radius: 5px;
+    transition: 1.5s transform ease;
+}
+
+.ins-popup-text {
+    font-size: 2.5vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    z-index: 999;
+}
+
+.ins-popup-numbers {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ins-number-comment {
+    position: absolute;
+    bottom: 12.5vh;
+    color: white;
+    font-size: 1vw;
+}
+
+.ins-number-comment.left {
+    left : 5px;
+}
+
+.ins-number-comment.right {
+    right : 10px;
+}
+
+.ins-option {
+    height: 2.5vw;
+    width: 2.0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80808085;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: #80808085 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ins-popup-arrow {
+    position: absolute;
+    top: -35px;
+    right: -1px;
+    width: 40px;
+    height: 40px;
+    background-color: #282828;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ins-popup-arrow span {
+    transition: transform 2s ease;
+}
+
+.ins-rotate {
+    transform: rotateX(180deg);
+}
+
+.ins-shift {
+    transform: translateY(30vh);
+}
+
+textarea.ins-comment-input {
+    width: 90%;
+    height: 40%;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.ins-submit-button {
+    width: 30%;
+    height: 4vh;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1vw;
+}

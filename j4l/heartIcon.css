@@ -1,0 +1,19 @@
+#ins-heart-banner img {
+    cursor: pointer;
+}
+
+.ins-heart-banner-close {
+    position: absolute;
+    z-index: 9999999999999;
+    width: 36px;
+    top: 33px;
+    cursor: pointer;
+    right: 1px;
+    font-size: 31px;
+    opacity: 0;
+}
+
+#ins-heart-banner {
+    position : fixed;
+    z-index : 99999;
+}

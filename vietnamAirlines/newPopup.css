@@ -1,0 +1,50 @@
+.ins-header-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ins-welcome-header {
+    width: 100%;
+    height: 40px;
+    background-color: #2485A8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ins-header-text {
+    color: whitesmoke;
+    flex: 3;
+    font-family: "OpenSans";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+a.ins-confirm-button {
+    width: 80px;
+    height: 30px;
+    background-color: #dba510;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    font-weight: bold;
+    margin-right: 25px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+a.ins-close-button {
+    width: 25px;
+    height: 25px;
+    color: whitesmoke;
+    border: solid 2px whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+}
