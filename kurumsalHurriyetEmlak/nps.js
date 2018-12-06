@@ -11,6 +11,7 @@ var insPopupNps = function (config) {
         self.reset();
         self.addFirstPageHtml();
         self.setEvents();
+        self.controlForIE();
     };
 
     self.reset = function () {
@@ -77,6 +78,7 @@ var insPopupNps = function (config) {
         sQuery('.ins-popup-text').after('<i class="fa fa-angle-up" aria-hidden="true"' +
             'style="position:absolute;font-size: 13vw;color: red;top:-5px"></i>');
 
+        self.controlForIE();
         self.sendNpsDataToInfoCampaign();
         self.endOfNps();
     };
@@ -136,6 +138,13 @@ var insPopupNps = function (config) {
         setTimeout(function () {
             self.reset();
         }, 5000);
+    };
+
+    self.controlForIE = function () {
+        if (spApi.getBrowser() === 'IE') {
+            sQuery('.ins-number-comment').addClass('ins-comment-position-ie');
+            sQuery('.ins-popup-nps-c16 > i').addClass('ins-arrow-icon-position-ie');
+        }
     };
 
     self.init();

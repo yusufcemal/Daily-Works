@@ -7,22 +7,40 @@
     max-height: 300px;
     max-width: 500px;
     background-color: #282828;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     z-index: 9999999;
     border: 1px solid #282828;
     border-radius: 5px;
+    -webkit-transition: 1.5s -webkit-transform ease;
+    transition: 1.5s -webkit-transform ease;
+    -o-transition: 1.5s transform ease;
     transition: 1.5s transform ease;
+    transition: 1.5s transform ease, 1.5s -webkit-transform ease;
 }
 
 .ins-popup-text {
-    font-size: 2.5vh;
+    font-size: 3vh;
     width: 100%;
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     font-weight: bold;
     z-index: 999;
@@ -31,37 +49,52 @@
 .ins-popup-numbers {
     width: 100%;
     height: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .ins-number-comment {
     position: absolute;
-    bottom: 12.5vh;
+    bottom: 13vh;
     color: white;
     font-size: 1vw;
 }
 
+.ins-comment-position-ie {
+    bottom: 18vh;
+}
+
 .ins-number-comment.left {
-    left : 5px;
+    left: 5px;
 }
 
 .ins-number-comment.right {
-    right : 10px;
+    right: 10px;
 }
 
 .ins-option {
-    height: 2.5vw;
-    width: 2.0vw;
+    height: 3vw;
+    width: 2vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
-    background-color: #80808085;
+    background-color: rgba(97, 97, 97, 1);
     color: white;
     font-weight: bold;
     font-size: 14px;
-    border: #80808085 1px solid;
+    border: #808080 1px solid;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -74,8 +107,14 @@
     height: 40px;
     background-color: #282828;
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     font-size: 30px;
     border-radius: 5px;
@@ -83,15 +122,27 @@
 }
 
 .ins-popup-arrow span {
+    -webkit-transition: -webkit-transform 2s ease;
+    transition: -webkit-transform 2s ease;
+    -o-transition: transform 2s ease;
     transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
 }
 
 .ins-rotate {
+    -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
 }
 
 .ins-shift {
+    -webkit-transform: translateY(30vh);
     transform: translateY(30vh);
+    -ms-transform: translateY(30vh);
+    -moz-transform: translateY(30vh);
+    -o-transform: translateY(30vh);
 }
 
 textarea.ins-comment-input {
@@ -106,10 +157,21 @@ textarea.ins-comment-input {
     height: 4vh;
     background-color: red;
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1vw;
+}
+
+.ins-arrow-icon-position-ie {
+    top : -2vw;
+    left : 7.5vw;
 }
