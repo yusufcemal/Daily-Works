@@ -1,0 +1,18 @@
+.ins-sticky-menu {
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+}
+
+.ins-shift-search-bar {
+    padding-bottom: 15px !important;
+    padding-top: 75px !important;
+}
+
+.ins-shift-search-icon {
+    top: 64px !important;
+}
+
+.ins-shift-for-back-to-top {
+    padding-top : 36px!important;
+}

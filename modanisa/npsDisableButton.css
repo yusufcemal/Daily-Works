@@ -1,0 +1,19 @@
+/* OPT-9583-START */
+.ins-missing-input-highlight {
+    border : 1px solid red!important;
+}
+
+.ins-missing-input-transition {
+    transition : all 1s ease;
+}
+
+.ins-user-nps-scale {
+    border : 1px solid transparent;
+    padding : 5px;
+}
+
+textarea.ins-user-nps-comment {
+    border : 1px solid transparent;
+}
+/* OPT-9583-END */
+

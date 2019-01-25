@@ -15,8 +15,8 @@ spApi.customBounce = function (callback) {
 };
 
 spApi.customBounce(function () {
-    var builderId = 145;
-    var variationId = spApi.userSegments[builderId] || 'test';
+    var builderId = 906;
+    var variationId = spApi.userSegments[builderId];
     var camp = spApi.getCamp(variationId).camp;
 
     if (camp.lang === spApi.getLang() && spApi.isOnMainPage()) {

@@ -10,8 +10,7 @@
     self.reset = function () {
         sQuery('.ins-overlay').remove();
 
-        self.searchBarElement.removeClass('ins-search-bar-focus');
-        self.searchBarElement.removeClass('ins-search-bar-transition');
+        self.searchBarElement.removeClass('ins-search-bar-focus ins-search-bar-transition sp-custom-90-1');
 
         setTimeout(function () {
             self.searchBarElement.show();
@@ -21,8 +20,7 @@
     self.createHtml = function () {
         sQuery('body').prepend('<div class="ins-overlay"></div>');
         self.searchBarElement.addClass('ins-search-bar-transition');
-        self.searchBarElement.addClass('ins-search-bar-focus');
-        self.searchBarElement.addClass('sp-custom-90-1');
+        self.searchBarElement.addClass('ins-search-bar-focus sp-custom-90-1');
     };
 
     self.setEvents = function () {

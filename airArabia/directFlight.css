@@ -1,0 +1,12 @@
+span.ins-non-stop {
+    position : absolute;
+    right: 0px;
+    margin-top: 20px;
+    color: white;
+    background-color: #FF0041;
+    font-size: 14px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

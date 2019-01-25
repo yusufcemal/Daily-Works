@@ -1,8 +1,8 @@
 (function (self) {
     self.configs = {
-        utmSource : '?utm_source=insider&utm_medium=web_push&utm_campaign=favorilere_eklenen_rnler&' +
-              'utm_term=&utm_content=&webPushId=dGVzdA==',
-        webPushTitle : 'Favori Ürünün Seni Bekliyor!'
+        utmSource: '?utm_source=insider&utm_medium=web_push&utm_campaign=favorilere_eklenen_rnler&' +
+            'utm_term=&utm_content=&webPushId=dGVzdA==',
+        webPushTitle: 'Favori Ürünün Seni Bekliyor!'
     };
 
     self.init = function () {
@@ -61,7 +61,7 @@
 
     self.getClickedItem = function (selector) {
         var productInfo = {};
-        
+
         if (spApi.isOnProductPage()) {
             productInfo = spApi.getCurrentProduct();
             productInfo.url = decodeURIComponent(spApi.getCurrentProduct().url);
@@ -213,14 +213,10 @@
                                     timeout: webPush.pushTimeout,
                                     browser: spApi.getPushBrowserName(),
                                     //Dynamic Content - Start - Info For OPAM
-                                    title: 
-                                        spApi.parseDynamicPushContent(productInfo.webPushTitle).content,
-                                    description: 
-                                        spApi.parseDynamicPushContent(decodeURIComponent(productInfo.name)).content,
-                                    link: 
-                                        spApi.parseDynamicPushContent(productInfo.url + productInfo.utmSource).content,
-                                    image: 
-                                        spApi.parseDynamicPushContent(productInfo.img).content,
+                                    title: spApi.parseDynamicPushContent(productInfo.webPushTitle).content,
+                                    description: spApi.parseDynamicPushContent(decodeURIComponent(productInfo.name)).content,
+                                    link: spApi.parseDynamicPushContent(productInfo.url + productInfo.utmSource).content,
+                                    image: spApi.parseDynamicPushContent(productInfo.img).content,
                                     buttonFirstUrl: '',
                                     buttonSecondUrl: '',
                                     banner: ''

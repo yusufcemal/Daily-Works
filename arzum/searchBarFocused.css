@@ -7,15 +7,6 @@
     opacity: 0.5;
 }
 
-.ins-search-bar-focus {
-    position: fixed !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    transform: translate(-50%, -50%) !important;
-    top: 50% !important;
-    left: 50% !important;
-}
-
 .ins-search-bar-transition {
     transition: top 1s ease !important;
     z-index: 99999 !important;

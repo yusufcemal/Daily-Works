@@ -1,0 +1,12 @@
+{
+    "conditions": [{
+            "element": ["#cartalertblock:visible"]
+        },
+        {
+            "element": [{
+                "selector": ".order-success-ordernumber:visible",
+                "checkType": "exists"
+            }]
+        }
+    ]
+}

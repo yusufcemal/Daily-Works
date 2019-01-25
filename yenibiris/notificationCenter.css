@@ -1,0 +1,119 @@
+.ins-class-notification-139 {
+    width: 55px;
+    height: 45px;
+    background: url(https://image.useinsider.com/brandroom/c75/VKypwcUwLbNa9REBoSEu1526479106.png) no-repeat center;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 999;
+    background-size: 60%;
+    float: left;
+    position: relative;
+    margin-top: 2%;
+    vertical-align: baseline;
+}
+
+.ins-class-notification-139.active {
+    background-color: grey;
+}
+
+.ins-class-notification-count-139 {
+    width: 15px;
+    height: 17px;
+    position: absolute;
+    bottom: 24px;
+    right: 0px;
+    background: #ffa500;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+.ins-notification-list-139 {
+    display: none;
+    width: 215px;
+    height: auto;
+    padding: 7px 10px 5px 10px;
+    background: #fff;
+    position: absolute;
+    top: 60px;
+    left: -82px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+    z-index: 999999999;
+}
+
+.ins-class-notification-count-139 {
+    display: block !important;
+}
+
+.ins-count-hidden {
+    display: none !important;
+}
+
+.ins-notification-list-139:before {
+    position: absolute;
+    display: inline-block;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    left: 50%;
+    margin-left: -10px;
+    top: -10px;
+    content: '';
+}
+
+.ins-notification-list-139 .title {
+    color: black;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    font-weight: 700;
+}
+
+.ins-notification-list-139 a {
+    float: left;
+    width: 94%;
+    padding: 10px 5px;
+    color: #666;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.ins-notification-list-139 a:hover {
+    background-color: #D8CFCF;
+}
+
+.ins-notification-list-139 a:last-child {
+    border-bottom: none;
+}
+
+.ins-notification-list-139 a:before {
+    content: '\203A';
+    float: left;
+    color: black;
+    font-size: 25px;
+    line-height: 8px;
+    padding-right: 5px;
+}
+
+.ins-notification-list-overlay-139 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: 0.2;
+    z-index: 99;
+}
